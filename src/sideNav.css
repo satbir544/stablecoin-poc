@@ -1,7 +1,7 @@
 /* src/Navigation.css */
 .navigation {
     position: fixed;
-    top: 28px;
+    top: 30px;
     left: 0;
     display: flex;
     flex-direction: column;
