@@ -1,0 +1,17 @@
+/* src/App.css */
+
+.accounts {
+  display: flex;
+  margin-left: 40vw;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+@media (min-width: 1000px) {
+  .accounts {
+    margin-left: 400px;
+  }
+}

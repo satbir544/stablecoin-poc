@@ -1,9 +1,13 @@
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
-    background: black;
+    max-height: 28px;
+    background: rgb(24, 24, 24);
     color: rgb(196, 196, 196);
 }
 
