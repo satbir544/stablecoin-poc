@@ -8,10 +8,54 @@
 .content {
   flex: 1;
   padding: 40px;
+  text-align: center; /* Center the content in the container */
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card h3 {
+  color: #333;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.add-account-button {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.add-account-button button {
+  background-color: #8EC5FC;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.add-account-button button:hover {
+  background-color: #E0C3FC;
 }
 
 @media (min-width: 1000px) {
   .accounts {
     margin-left: 400px;
+  }
+
+  .content {
+    max-width: 500px;
+    width: auto;
+    margin: 0px auto;
   }
 }
