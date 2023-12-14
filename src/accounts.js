@@ -9,7 +9,7 @@ function Accounts() {
       <SideNav />
       <div className='content'>
         <h2>ACCOUNTS</h2>
-        
+
         {/* Sample Card */}
         <div className='card'>
           <h3>Savings</h3>
@@ -17,9 +17,9 @@ function Accounts() {
           <p>Balance: $1,000.00</p>
         </div>
 
-        {/* Add Account Button */}
+        {/* Create Account Button */}
         <div className="add-account-button">
-          <button>Add Account</button>
+          <button>Create Account</button>
         </div>
       </div>
     </div>
