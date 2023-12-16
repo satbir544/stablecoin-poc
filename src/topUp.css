@@ -1,0 +1,61 @@
+/* src/topUp.css */
+.top-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.top-up-container h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 60px;
+    margin-bottom: 20px; /* Add margin below h2 */
+}
+
+.buy-stable-coin-card {
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 30px;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 20px; /* Add some margin between h2 and the card */
+}
+
+.top-up-container .form-group {
+    margin-bottom: 20px;
+}
+
+.top-up-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.top-up-container select,
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.top-up-container input {
+    width: calc(100% - 22px); /* Adjusted width to account for padding */
+}
+
+.top-up-container .form-group button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.top-up-container button:hover {
+    background-color: #45a049;
+}
