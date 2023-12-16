@@ -24,7 +24,7 @@ function TopUp() {
 
   return (
     <div className="top-up-container">
-      <h2>Buy Stable Coin</h2>
+      <h2>Buy Stablecoin</h2>
       <div className="buy-stable-coin-card">
         <form>
           <div className="form-group">
